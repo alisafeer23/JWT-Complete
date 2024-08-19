@@ -1,0 +1,15 @@
+/* src/styles.scss */
+
+/* Custom button color */
+.registration-form , .button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.custom-btn:hover {
+  background-color: #218838; /* Hover background color */
+  border-color: #1e7e34; /* Hover border color */
+}

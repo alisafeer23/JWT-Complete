@@ -1,0 +1,43 @@
+/* Add styles specific to the Dashboard component here */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .dashboard-header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .dashboard-content {
+    margin: 1rem 0;
+  }
+  
+  .dashboard-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-item h3 {
+    margin-top: 0;
+  }
+  
+  .dashboard-item p {
+    margin: 0.5rem 0;
+  }
+  
+  .dashboard-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+  }
+  

@@ -1,0 +1,17 @@
+.fruit-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .fruit-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .fruit-list li:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
